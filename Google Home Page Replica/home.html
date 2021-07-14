@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+    <title>Google</title>
+
+    <style>
+        html{
+           overflow-y: hidden;
+            overflow-x: hidden;
+            font-family: 'Roboto Slab', serif;
+        }
+      
+        header{
+            float:right;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        li{
+            margin-right: 15px;
+         text-decoration: none;
+        }
+        button{
+            color: white;
+            background-color: #4361ee;
+            width: 100px;
+            height: 39px;
+            border: none;
+            border-radius: 6px;
+            margin-top: -12px;
+        }
+
+        main{
+            height: 325px;
+        }
+        img{
+            margin-left: 550px;
+            margin-top: 60px;
+        }
+        input{
+            width: 560px;
+            height: 42px;
+            margin-top: 20px;
+            margin-left: 380px;
+            border-radius: 42px;
+            border: 1px solid rgb(180, 178, 178);
+            outline: none;
+        }
+        .searchbar-bottom {
+            margin-top: 20px;
+            width: 360px;
+            margin-left: 480px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .searchbar-bottom p{
+            background-color: rgb(241, 241, 241);
+            padding: 10px;
+        }
+        .bottommost{
+            margin-left: 590px;
+        }
+      
+        .level1{
+            margin-top: 200px;
+            margin-left: -7px;
+            width: 100%;
+            height: 30px;
+            padding: 15px;
+            color: rgb(139, 136, 136);
+            background-color: rgb(241, 241, 241);
+            border-bottom: 1px solid rgb(211, 211, 211);
+        }
+        .level2{
+            display: flex;
+            width: 100%;
+            height: 30px;
+            padding: 15px;
+            margin-left: -5px;
+            background-color: rgb(241, 241, 241);
+            color: rgb(139, 136, 136);
+            justify-content: space-between;
+        }
+        .content-left , .content-right{
+
+            display: flex;
+            justify-content: space-between;
+        }
+        .content-left a{
+            text-decoration: none;
+            color: rgb(139, 136, 136);
+            margin-right: 20px;
+            font: 16px;
+            cursor: pointer;
+        }
+
+        .content-right a{
+            text-decoration: none;
+            color: rgb(139, 136, 136);
+            margin-right: 20px;
+            font: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            
+            <li><i class="fas fa-th"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="20" height="20"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M7.16667,28.66667v28.66667h43v-28.66667zM64.5,28.66667v28.66667h43v-28.66667zM121.83333,28.66667v28.66667h43v-28.66667zM7.16667,71.66667v28.66667h43v-28.66667zM64.5,71.66667v28.66667h43v-28.66667zM121.83333,71.66667v28.66667h43v-28.66667zM7.16667,114.66667v28.66667h43v-28.66667zM64.5,114.66667v28.66667h43v-28.66667zM121.83333,114.66667v28.66667h43v-28.66667z"></path></g></g></svg>
+            </li>
+            <button>Sign In</button>
+        </ul>
+    </header>
+    <main>
+        <img src="GoogleHead.png" alt="">
+
+        <div class="inputarea">
+            <input type="text">
+        </div>
+        <div class="searchbar-bottom">
+            <p>Google Search </p>
+            <p>I'm Feeling Lucky  </p>
+        </div>
+        <div class="bottommost">
+            Google offered in : <a href="#">नेपाली </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="level1">
+            <p>Nepal</p>
+        </div>
+        <div class="level2">
+            <div class="content-left">
+                <a href="#">About</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+
+            <div class="content-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
